@@ -1,0 +1,11 @@
+artifacts_root: artifacts  # Tüm çıktıların saklanacağı ana klasör
+
+data_ingestion:  # Veri Alımı Aşaması
+  root_dir: artifacts/data_ingestion  # Veri alımı için ana dizin
+  source_URL: https://www.kaggle.com/api/v1/datasets/download/bhavikjikadara/student-study-performance  # Verinin indirileceği URL
+  local_data_file: artifacts/data_ingestion/data.zip  # İndirilen veri dosyasının saklanacağı yol
+  unzip_dir: artifacts/data_ingestion  # Zip dosyasının açılacağı dizin
+
+
+
+
